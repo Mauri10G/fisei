@@ -1,0 +1,6 @@
+*.log
+*.exe
+compile.class
+conexiondb.java
+node_modules
+
