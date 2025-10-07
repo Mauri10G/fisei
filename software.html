@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrera de Software – FISEI | Universidad Técnica de Ambato</title>
+  <meta name="description" content="Información general de la Carrera de Software de la FISEI - Universidad Técnica de Ambato: perfil, malla, competencias, laboratorios y admisión." />
+  <style>
+    :root{
+      --azul:#0D2B81;
+      --celeste:#f5f5f5;
+      --crema:#FFF3E0;
+      --verde:#20603D;
+      --rojo:#D32F2F;
+      --texto:#1f2937;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--texto);background:#ffffff;line-height:1.6}
+    a{color:var(--azul);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{background:linear-gradient(135deg,var(--azul),#183a9e);color:#fff}
+    .container{max-width:1100px;margin:auto;padding:0 1rem}
+    .topbar{display:flex;align-items:center;justify-content:space-between;padding:1rem 0}
+    .brand{display:flex;align-items:center;gap:.75rem}
+    .brand__logo{width:44px;height:44px;border-radius:12px;background:var(--crema);display:grid;place-items:center;color:var(--azul);font-weight:700}
+    nav ul{display:flex;gap:1rem;list-style:none;padding:0;margin:0}
+    .hero{padding:3.5rem 0 2.5rem;border-bottom:4px solid rgba(255,255,255,.15)}
+    .hero h1{margin:.25rem 0 0;font-size:clamp(1.6rem,3vw,2.2rem)}
+    .hero p{max-width:850px;margin:.5rem 0 0.75rem;opacity:.95}
+    .cta{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1rem}
+    .btn{display:inline-block;padding:.7rem 1rem;border-radius:12px;font-weight:600;border:2px solid transparent}
+    .btn--light{background:#fff;color:var(--azul)}
+    .btn--ghost{background:transparent;border-color:#fff;color:#fff}
+    section{padding:2.25rem 0}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:1rem}
+    .card{grid-column:span 12;background:var(--celeste);border-radius:16px;padding:1rem}
+    .card--accent{background:var(--crema)}
+    .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin-top:1rem}
+    .kpi{background:#fff;border-radius:14px;padding:1rem;border:1px solid #eee}
+    h2{font-size:clamp(1.2rem,2.4vw,1.6rem);margin:0 0 .75rem;color:var(--azul)}
+    h3{font-size:1rem;margin:.25rem 0;color:#374151}
+    ul{margin:.25rem 0 .5rem 1.25rem}
+    .list-clean{list-style: none; padding-left: 0; margin-left: 0}
+    .pill{display:inline-block;background:#e8eefc;color:var(--azul);padding:.35rem .6rem;border-radius:999px;font-size:.85rem;margin:.2rem .25rem 0 0}
+    .notice{border-left:4px solid var(--verde);background:#f1f8f4;padding:.8rem 1rem;border-radius:10px}
+    footer{background:#0b1e57;color:#c9d4ff;padding:1.5rem 0;margin-top:1rem}
+    .footer-mini{font-size:.9rem;display:grid;gap:.3rem}
+    @media(min-width:800px){
+      .card.split{display:grid;grid-template-columns:1.2fr 1fr;gap:1rem;align-items:start}
+      .col-8{grid-column:span 8}
+      .col-4{grid-column:span 4}
+      .col-6{grid-column:span 6}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <div class="brand__logo">F</div>
+          <div>
+            <strong>FISEI – UTA</strong><br />
+            <small>Carrera de Software</small>
+          </div>
+        </div>
+        <nav aria-label="Principal">
+          <ul>
+            <li><a href="#perfil" class="btn btn--ghost">Perfil</a></li>
+            <li><a href="#malla" class="btn btn--ghost">Malla</a></li>
+            <li><a href="#laboratorios" class="btn btn--ghost">Laboratorios</a></li>
+            <li><a href="#admision" class="btn btn--ghost">Admisión</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero">
+        <div class="container">
+          <span class="pill">Ambato · Ecuador</span>
+          <h1>Ingeniería en Software – Formación integral, práctica y con impacto</h1>
+          <p>
+            La Carrera de Software de la FISEI (Universidad Técnica de Ambato) forma profesionales capaces de
+            diseñar, construir y desplegar soluciones tecnológicas de alto impacto, con sólidas bases en ingeniería,
+            metodologías ágiles y prácticas modernas de desarrollo.
+          </p>
+          <div class="cta">
+            <a href="#perfil" class="btn btn--light">Conocer el perfil</a>
+            <a href="#contacto" class="btn btn--ghost">Solicitar información</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Perfil -->
+    <section id="perfil" aria-labelledby="perfil-title">
+      <h2 id="perfil-title">Perfil de la carrera</h2>
+      <div class="grid">
+        <article class="card split">
+          <div>
+            <h3>Objetivo</h3>
+            <p>
+              Formar ingenieros/as de software con competencias técnicas y éticas para analizar problemas, modelar
+              soluciones, desarrollar productos de calidad y liderar proyectos tecnológicos en entornos multidisciplinarios.
+            </p>
+
+            <h3>Competencias clave</h3>
+            <ul>
+              <li>Programación y diseño orientado a objetos, patrones y arquitectura.</li>
+              <li>Metodologías ágiles (Scrum/Kanban), integración y despliegue continuo.</li>
+              <li>Base de datos, ingeniería de requisitos, pruebas y aseguramiento de la calidad.</li>
+              <li>Desarrollo web y móvil, computación en la nube y ciberseguridad básica.</li>
+              <li>Pensamiento crítico, comunicación efectiva y trabajo en equipo.</li>
+            </ul>
+
+            <div class="kpis">
+              <div class="kpi"><strong>10</strong><br /><small>+ laboratorios y salas especializadas</small></div>
+              <div class="kpi"><strong>4</strong><br /><small>áreas troncales: requisitos, diseño, construcción, pruebas</small></div>
+              <div class="kpi"><strong>AGIL</strong><br /><small>enfoque en Scrum/Kanban y herramientas DevOps</small></div>
+            </div>
+          </div>
+
+          <aside>
+            <div class="notice" role="note">
+              <strong>Enfoque práctico:</strong> proyectos por ciclo, trabajo con repositorios Git, despliegues en la nube
+              y evaluación basada en evidencias (demos, repos, reportes).
+            </div>
+            <p style="margin-top:.75rem">
+              <span class="pill">Git/GitHub</span>
+              <span class="pill">Docker</span>
+              <span class="pill">CI/CD</span>
+              <span class="pill">SQL/NoSQL</span>
+              <span class="pill">React/Java</span>
+              <span class="pill">Python</span>
+            </p>
+          </aside>
+        </article>
+      </div>
+    </section>
+
+    <!-- Malla (resumen) -->
+    <section id="malla" aria-labelledby="malla-title">
+      <h2 id="malla-title">Resumen de malla curricular (referencial)</h2>
+      <div class="grid">
+        <article class="card col-6">
+          <h3>Fundamentos</h3>
+          <ul>
+            <li>Programación I–II, Estructuras de Datos</li>
+            <li>Bases de Datos, Sistemas Operativos</li>
+            <li>Matemática Discreta, Probabilidad y Estadística</li>
+          </ul>
+        </article>
+        <article class="card col-6 card--accent">
+          <h3>Ingeniería de Software</h3>
+          <ul>
+            <li>Requisitos, Diseño y Arquitectura</li>
+            <li>Pruebas y Calidad de Software</li>
+            <li>Gestión de Proyectos, Metodologías Ágiles</li>
+          </ul>
+        </article>
+        <article class="card col-6">
+          <h3>Desarrollo de Aplicaciones</h3>
+          <ul>
+            <li>Desarrollo Web y Móvil</li>
+            <li>Servicios y APIs, Integración</li>
+            <li>Seguridad de Software</li>
+          </ul>
+        </article>
+        <article class="card col-6 card--accent">
+          <h3>Optativas y Proyecto</h3>
+          <ul>
+            <li>Cloud, Ciencia de Datos, IA aplicada</li>
+            <li>Emprendimiento e Innovación</li>
+            <li>Proyecto Integrador / Titulación</li>
+          </ul>
+        </article>
+      </div>
+      <p style="margin-top:.5rem"><small>
+        Nota: Esta es una síntesis orientativa. Para la malla oficial y prerrequisitos, consulta los canales institucionales de la UTA – FISEI.
+      </small></p>
+    </section>
+
+    <!-- Laboratorios -->
+    <section id="laboratorios" aria-labelledby="labs-title">
+      <h2 id="labs-title">Laboratorios y recursos</h2>
+      <div class="grid">
+        <article class="card">
+          <ul class="list-clean">
+            <li>💻 Laboratorios de programación y redes con estaciones modernizadas.</li>
+            <li>☁️ Acceso a plataformas educativas, repositorios privados y recursos en la nube.</li>
+            <li>🔐 Prácticas de seguridad, pruebas automatizadas y control de versiones.</li>
+            <li>🤝 Vínculos con proyectos reales e iniciativas de vinculación con la sociedad.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Proyectos y vinculación -->
+    <section id="proyectos" aria-labelledby="proy-title">
+      <h2 id="proy-title">Proyectos estudiantiles</h2>
+      <div class="grid">
+        <article class="card">
+          <p>
+            Cada período académico incorpora proyectos integradores: desde aplicaciones web para gestión de procesos,
+            hasta prototipos móviles y soluciones con IA aplicada. Se promueve la documentación técnica, pruebas y
+            despliegue continuo.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Admisión -->
+    <section id="admision" aria-labelledby="adm-title">
+      <h2 id="adm-title">Admisión (guía rápida)</h2>
+      <div class="grid">
+        <article class="card col-8">
+          <ol>
+            <li>Revisa requisitos y cronograma oficial de admisión publicados por la UTA.</li>
+            <li>Regístrate en los portales indicados por la universidad y selecciona la Carrera de Software (FISEI).</li>
+            <li>Completa evaluaciones/procesos correspondientes y confirma tu cupo.</li>
+          </ol>
+          <p class="notice" style="margin-top:.6rem">
+            <strong>Importante:</strong> Siempre valida fechas, documentos y aranceles directamente en los
+            sitios oficiales de la UTA/FISEI.
+          </p>
+        </article>
+        <aside class="card col-4 card--accent">
+          <h3>Perfil de ingreso</h3>
+          <ul>
+            <li>Interés por la tecnología y la resolución de problemas.</li>
+            <li>Base en matemáticas y lógica.</li>
+            <li>Disposición para el trabajo colaborativo y el aprendizaje continuo.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contacto</h2>
+      <div class="grid">
+        <article class="card">
+          <p>
+            <strong>FISEI – Universidad Técnica de Ambato</strong><br />
+            Ambato, Ecuador<br />
+            Sitio institucional: <a href="#" aria-label="Enlace al sitio institucional">(enlace institucional)</a><br />
+            Correo de informes: <a href="mailto:info@uta.edu.ec">info@uta.edu.ec</a>
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container footer-mini">
+      <span>© <span id="y"></span> Carrera de Software – FISEI, Universidad Técnica de Ambato.</span>
+      <span>Este sitio informativo no reemplaza la comunicación oficial institucional.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
