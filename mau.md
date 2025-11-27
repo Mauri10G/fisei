@@ -53,61 +53,52 @@ Algunos componentes clave son:
 6. **Marketplace (Addons)**: repositorio de módulos y temas oficiales. 
 
 Estos elementos permiten que la tienda sea personalizable y funcional tanto para el administrador como para los clientes.
----
-
-## 5. Ventajas de usar PrestaShop / plataformas open-source
-- **Control y personalización:** código accesible para adaptar la solución. :contentReference[oaicite:13]{index=13}  
-- **Ecosistema de módulos y comunidad:** marketplace con módulos y soporte comunitario. :contentReference[oaicite:14]{index=14}  
-- **Costos iniciales reducidos:** no hay licencias por el core (aunque sí inversión en hosting, desarrollo y módulos premium). :contentReference[oaicite:15]{index=15}  
-- **Multiidioma y multimoneda nativos**, útil para tiendas internacionales. :contentReference[oaicite:16]{index=16}
 
 ---
 
-## 6. Desventajas y limitaciones
-- **Necesidad de conocimientos técnicos** para personalizaciones avanzadas y mantenimiento (seguridad, backups, optimización). :contentReference[oaicite:17]{index=17}  
-- **Rendimiento**: una tienda con muchos módulos/muchos productos puede requerir optimizaciones (caché, infraestructura, CDN, tuning de MySQL). :contentReference[oaicite:18]{index=18}  
-- **Costos ocultos:** módulos premium, temas, hosting y mantenimiento. :contentReference[oaicite:19]{index=19}
+## 5. Ventajas y Desventajas de PrestaShop
+PrestaShop tiene varias ventajas que la han convertido en una de las plataformas de comercio electrónico más utilizadas. Una de las principales es que es de código abierto, lo que significa que se puede instalar sin pagar licencias y permite modificar su funcionamiento para adaptarlo a cualquier tipo de negocio. También ofrece un panel de administración fácil de entender, lo que facilita la gestión de productos, pedidos y clientes. Su sistema modular permite añadir funciones sin afectar el núcleo de la plataforma, y además cuenta con una comunidad activa que ofrece soporte, guías y extensiones.
+
+Otra ventaja importante es que PrestaShop soporta múltiples idiomas y monedas, lo que hace posible vender a clientes de diferentes países. También incluye herramientas básicas de marketing y estadísticas, lo que ayuda a tomar decisiones y mejorar las ventas. Estas características la convierten en una plataforma accesible para proyectos pequeños y también para tiendas más grandes que necesitan personalización.
+
+Sin embargo, también tiene algunas desventajas. La primera es que, aunque la instalación inicial es gratuita, muchos módulos y temas avanzados son de pago, lo que puede aumentar los costos del proyecto. Además, para realizar personalizaciones profundas se requieren conocimientos técnicos, por lo que algunas tiendas necesitan contratar desarrolladores. Otra desventaja es que cuando una tienda crece mucho y maneja miles de productos puede requerir optimización del servidor, ya que el rendimiento puede disminuir si no se configura correctamente.
+
+Algunas ventajas son:
+- Es de código abierto y personalizable
+- Fácil de administrar
+- Soporta varios idiomas y monedas
+- Tiene una comunidad activa
+
+Y algunas desventajas son:
+- Módulos avanzados suelen ser de pago
+- Requiere conocimientos técnicos para personalizaciones grandes
+- Puede necesitar optimización en tiendas muy grandes
 
 ---
 
-## 7. Aplicaciones prácticas y casos de uso
-- Tiendas de nicho y PYMES que requieren control sobre su tienda y capacidad de expansión mediante módulos. :contentReference[oaicite:20]{index=20}  
-- Proyectos educativos y prototipos para aprender eCommerce dado su modelo open-source y facilidad de despliegue (local o en contenedores). :contentReference[oaicite:21]{index=21}
+## 6. Aplicaciones prácticas de PrestaShop
+PrestaShop se puede usar en muchos tipos de proyectos porque ofrece herramientas suficientes para administrar una tienda digital desde cero. Una aplicación práctica muy común es la creación de tiendas pequeñas o medianas que necesitan vender productos físicos como ropa, accesorios, tecnología o artículos del hogar. Gracias a su sistema modular, estas tiendas pueden crecer poco a poco agregando funciones como envíos automáticos, métodos de pago adicionales o herramientas de marketing digital.
+
+También es útil para negocios que venden productos digitales como cursos, ebooks, música o software. Con algunos ajustes y módulos, la plataforma permite entregar archivos de forma segura después del pago, lo que la vuelve una opción práctica para creadores de contenido o pequeños emprendimientos. Además, PrestaShop puede integrarse con redes sociales y sistemas externos, lo que ayuda a ampliar la presencia del negocio y atraer más clientes.
+
+Otra aplicación común es el uso de PrestaShop como proyecto educativo o de práctica académica. Muchas universidades lo utilizan para que los estudiantes aprendan cómo funciona una tienda en línea desde dentro, cómo se instala y cómo se administran los elementos de un eCommerce real. Esto permite conocer aspectos como la configuración del servidor, la gestión del back office y la integración de diferentes servicios.
 
 ---
 
-## 8. Buenas prácticas para despliegue (breve)
-- Usar entornos contenedorizados (Docker Compose) para separar servicios: app (PHP-FPM/Apache), base de datos (MySQL/MariaDB), cache (Redis opcional) y volúmenes persistentes. La documentación oficial recomienda Docker Compose para facilitar redes y volúmenes. :contentReference[oaicite:22]{index=22}  
-- Hacer hardening: SSL, backups automáticos, actualización de dependencias y monitorización. :contentReference[oaicite:23]{index=23}
+## 7. Conclusión teórica
+PrestaShop es una herramienta completa y accesible para construir una tienda en línea, especialmente para negocios que buscan un equilibrio entre control, personalización y facilidad de uso. Al ser una plataforma de código abierto permite que los usuarios adapten su tienda según sus necesidades sin depender de un sistema cerrado, lo que la convierte en una buena opción para proyectos con crecimiento a mediano o largo plazo. Su panel de administración claro y su estructura modular facilitan la gestión diaria del negocio y permiten agregar funciones sin complicaciones.
+
+Sin embargo, también es importante reconocer que PrestaShop no es una solución perfecta para todos los casos. Algunas personalizaciones avanzadas requieren conocimientos técnicos y ciertos módulos esenciales pueden tener un costo adicional. A pesar de esto, su comunidad activa, la amplia cantidad de recursos disponibles y su flexibilidad hacen que sea una plataforma confiable tanto para emprendedores como para empresas que buscan expandirse en el mundo digital.
+
+En términos generales, PrestaShop representa una base sólida para entender cómo funciona el comercio electrónico y cómo se administra una tienda digital. Su combinación de simplicidad, opciones de crecimiento y herramientas completas la convierten en una solución práctica para aprender, experimentar y desarrollar proyectos reales dentro del entorno del eCommerce.
 
 ---
 
-## 9. Evidencia empírica y comparativa (resultados de estudios)
-Estudios comparativos y análisis de usabilidad coinciden en que PrestaShop es una de las soluciones open-source con mejores resultados en usabilidad para tiendas pequeñas/medianas en varias evaluaciones académicas recientes. Estos trabajos comparativos analizan consistencia, interactividad y facilidad de uso frente a alternativas como Magento o soluciones basadas en CMS+plugin. :contentReference[oaicite:24]{index=24}
+## 8. Bibliografía 
+- PrestaShop Developer Documentation — Architecture / Themes / Docker. 
+- M. Wijaszka, M. Dzieńkowski (2024). *A usability analysis of e-commerce systems (PrestaShop, Magento, Joomla/HikaShop)*. Journal / Conference.
+- ScitePress (2018). *Evaluating Open Source E-commerce Tools using OSSpal* (comparativo de Prestashop, Magento, WooCommerce, etc.). 
+- Tutorial/boilerplate y guías de despliegue en Docker (artículos y guías prácticas).
+- Docker Compose — documentación oficial (uso de redes, volúmenes y servicios). 
 
 ---
-
-## 10. Conclusión teórica
-PrestaShop representa una opción sólida para eCommerce open-source: combina extensibilidad, comunidad y herramientas administrativas completas. Es adecuada para proyectos con recursos para gestionar hosting y personalizaciones; su principal reto es el mantenimiento y la optimización en tiendas de alta carga. Para proyectos académicos y PYMES, su ecosistema y la posibilidad de desplegar con Docker facilitan reproducibilidad y experimentación. :contentReference[oaicite:25]{index=25}
-
----
-
-## 11. Bibliografía (seleccionada)
-- PrestaShop Developer Documentation — Architecture / Themes / Docker. :contentReference[oaicite:26]{index=26}  
-- M. Wijaszka, M. Dzieńkowski (2024). *A usability analysis of e-commerce systems (PrestaShop, Magento, Joomla/HikaShop)*. Journal / Conference. :contentReference[oaicite:27]{index=27}  
-- ScitePress (2018). *Evaluating Open Source E-commerce Tools using OSSpal* (comparativo de Prestashop, Magento, WooCommerce, etc.). :contentReference[oaicite:28]{index=28}  
-- Tutorial/boilerplate y guías de despliegue en Docker (artículos y guías prácticas). :contentReference[oaicite:29]{index=29}  
-- Docker Compose — documentación oficial (uso de redes, volúmenes y servicios). :contentReference[oaicite:30]{index=30}
-
----
-
-## 12. Anexo: Notas para la parte práctica del grupo
-- Para la **implantación con Docker Compose** (tarea de Damian) revisar la guía oficial de PrestaShop para Docker y usar `docker-compose.yml` que incluya al menos servicios: `prestashop` (PHP/Apache), `db` (MySQL/MariaDB), volúmenes persistentes y redes internas. :contentReference[oaicite:31]{index=31}  
-- Para la **implantación por CLI (Jonathan)** usar comandos `docker network create`, `docker run -d --name mysql ...`, y enlazar la app con `--link` o redes bridge; documentar cada comando ejecutado. :contentReference[oaicite:32]{index=32}  
-- Para la **implantación en hipervisor (Andrés)** documentar creación de VM, versión de SO instalada, paquetes PHP, extensiones, MySQL, permisos y configuración de Apache/Nginx. :contentReference[oaicite:33]{index=33}
-
----
-
-## 13. Observaciones finales
-La investigación evidencia que PrestaShop es una alternativa válida para el proyecto de curso por su equilibrio entre funcionalidad y facilidad de despliegue; sin embargo, la atención en rendimiento y seguridad debe ser prioritaria en producción.
-
