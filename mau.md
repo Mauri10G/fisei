@@ -6,32 +6,53 @@
 ---
 
 ## 1. ¿Qué es eCommerce?
-El comercio electrónico (eCommerce) es el conjunto de prácticas, tecnologías y plataformas que permiten la compra y venta de bienes y servicios a través de redes digitales. Incluye funciones como catálogo de productos, carrito de compra, pasarelas de pago, gestión de inventario, gestión de clientes (CRM), envío y logística, y analítica de ventas. Estas plataformas pueden ser SaaS (p. ej. Shopify) o de código abierto (p. ej. PrestaShop, WooCommerce, Magento). :contentReference[oaicite:0]{index=0}
+El comercio electrónico o eCommerce es la forma de comprar y vender productos o servicios a través de internet. Funciona como una tienda física pero todo ocurre en una página web o aplicación; las personas pueden explorar productos, hacer pedidos y pagar desde cualquier lugar y en cualquier momento.
+El eCommerce se apoya en varias funciones básicas que permiten que una tienda digital trabaje de manera ordenada y segura. Entre las más comunes están:
+
+- Catálogo de productos donde se muestran precios, fotos y descripciones
+- Carrito de compras que permite guardar los artículos antes de pagar
+- Métodos de pago en línea como tarjetas, transferencias o billeteras digitales
+- Gestión de inventario para controlar las existencias y movimientos
+- Registro de pedidos y seguimiento de envíos
+
+Existen diferentes tipos de modelos de eCommerce; por ejemplo tiendas que venden directo al cliente, empresas que venden a otras empresas o plataformas donde los usuarios pueden vender entre sí. También hay distintas herramientas para crear una tienda; algunas son servicios listos para usar como Shopify y otras son de código abierto como PrestaShop que permiten personalización y control total.
+
+El eCommerce es importante porque ayuda a llegar a más clientes, operar las 24 horas del día y reducir costos, por lo que muchos negocios lo utilizan para crecer y adaptarse a la economía digital actual.
 
 ---
 
 ## 2. ¿Qué es PrestaShop?
-PrestaShop es una plataforma de comercio electrónico de código abierto orientada a tiendas online medianas y pequeñas que ofrece un sistema modular (módulos y temas), panel de administración, gestión de productos/categorías, y comunidad/marketplace de addons. Es extensible mediante módulos y temas, y puede desplegarse sobre una pila LAMP/PHP o en contenedores Docker. La documentación oficial describe su arquitectura modular y guías oficiales para desplegarlo con Docker Compose. :contentReference[oaicite:1]{index=1}
+PrestaShop es una plataforma de comercio electrónico de código abierto que permite crear y administrar una tienda en línea de forma completa. Se instala en un servidor web y ofrece todas las herramientas necesarias para mostrar productos, gestionar pedidos, manejar pagos y administrar clientes. Una ventaja importante de PrestaShop es que es flexible y se puede modificar gracias a su estructura basada en módulos y plantillas, lo que permite adaptarlo a diferentes tipos de negocios sin necesidad de depender de un sistema cerrado.
+
+Esta plataforma es muy usada a nivel mundial porque combina facilidad de uso con funciones avanzadas. Su panel de administración permite organizar productos, configurar métodos de pago, controlar inventario y revisar estadísticas de ventas. Además, al ser un software libre, los usuarios pueden instalarlo sin pagar licencias y personalizarlo según las necesidades de su proyecto, lo que la convierte en una opción accesible tanto para pequeños emprendimientos como para negocios en crecimiento. PrestaShop también cuenta con una comunidad activa que crea módulos, temas y guías, lo que facilita la resolución de problemas y la incorporación de nuevas funciones.
 
 ---
 
-## 3. Características generales de plataformas eCommerce (aplicadas a PrestaShop)
-- Gestión de catálogo: productos, variantes, atributos y categorías. :contentReference[oaicite:2]{index=2}  
-- Carrito y checkout configurable (opciones de impuestos, envíos y pasarelas). :contentReference[oaicite:3]{index=3}  
-- Extensibilidad: módulos (funcionalidades) y temas (apariencia). :contentReference[oaicite:4]{index=4}  
-- Panel de administración con reportes y herramientas de marketing. :contentReference[oaicite:5]{index=5}  
-- Multiidioma y multimoneda (característica nativa en muchas instalaciones). :contentReference[oaicite:6]{index=6}
+## 3. Características generales de plataformas eCommerce 
+PrestaShop tiene varias características que la convierten en una plataforma completa para construir una tienda en línea. Entre sus características principales se encuentran:
+- Panel de administración intuitivo para manejar productos, clientes y pedidos
+- Plantillas y temas para modificar el diseño de la página
+- Soporte para múltiples idiomas y monedas
+- Integración con diferentes métodos de pago y servicios de envío
+- Herramientas básicas de marketing y estadísticas de ventas
+Estas características hacen que PrestaShop sea una plataforma flexible y capaz de adaptarse tanto a tiendas simples como a proyectos más avanzados.
 
 ---
 
-## 4. Componentes de PrestaShop (arquitectura y elementos clave)
-1. **Core (núcleo)**: lógica principal en PHP, controladores, modelos, servicios. :contentReference[oaicite:7]{index=7}  
-2. **Módulos**: paquetes que añaden o modifican funcionalidades (pago, envíos, SEO, etc.). :contentReference[oaicite:8]{index=8}  
-3. **Temas**: plantillas Twig/Smarty, CSS y assets para la presentación. :contentReference[oaicite:9]{index=9}  
-4. **Base de datos**: normalmente MySQL/MariaDB para persistencia. :contentReference[oaicite:10]{index=10}  
-5. **Frontend / Backoffice**: interfaz de tienda (clientes) y panel administrativo (gestión). :contentReference[oaicite:11]{index=11}  
-6. **Marketplace (Addons)**: repositorio de módulos y temas oficiales. :contentReference[oaicite:12]{index=12}
+## 4. Componentes de PrestaShop 
+PrestaShop está formado por varios componentes que trabajan juntos para que la tienda pueda funcionar de manera ordenada. El núcleo del sistema está desarrollado en PHP y contiene la lógica principal, como la forma en que se manejan los productos, los pedidos y las configuraciones. A este núcleo se le pueden añadir módulos, que son pequeñas extensiones que permiten integrar funciones como pagos, envíos, reportes adicionales o herramientas de marketing.
 
+También cuenta con un sistema de temas que define el diseño visual de la tienda, desde los colores hasta la estructura de las páginas. La base de datos, normalmente en MySQL o MariaDB, guarda toda la información importante como productos, clientes y pedidos. Por último, PrestaShop incluye dos partes visibles para el usuario: la tienda en sí, que es donde los clientes navegan y compran, y el panel de administración o back office, donde el dueño de la tienda gestiona todas las operaciones.
+
+Algunos componentes clave son:
+1. **Core (núcleo)**: lógica principal en PHP, controladores, modelos, servicios. :contentReference
+2. **Módulos**: paquetes que añaden o modifican funcionalidades (pago, envíos, SEO, etc.). 
+3. **Temas**: plantillas Twig/Smarty, CSS y assets para la presentación. :contentReference
+4. **Base de datos**: normalmente MySQL/MariaDB para persistencia.
+5. **Frontend / Backoffice**: interfaz de tienda (clientes) y panel administrativo (gestión). 
+6. **Marketplace (Addons)**: repositorio de módulos y temas oficiales. 
+
+Estos elementos permiten que la tienda sea personalizable y funcional tanto para el administrador como para los clientes.
 ---
 
 ## 5. Ventajas de usar PrestaShop / plataformas open-source
